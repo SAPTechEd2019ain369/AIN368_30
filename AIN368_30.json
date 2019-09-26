@@ -13,7 +13,7 @@
 			"kind": "main",
 			"tag": "com-sap-teched-30",
 			"url": "https://sapteched2019ain369.github.io/AIN368_XX/webcomponent.js",
-			"properties" : [ ],
+			//"properties" : [ ],
 			"integrity": "",
 			"ignoreIntegrity" : true
 		}
