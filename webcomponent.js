@@ -72,7 +72,7 @@
             var arcDef = window._d3.arc()
                 .innerRadius(0)
                 .outerRadius(this._outerRad);
-        }
+
 
         var guageArc = this._svgContainer.append("path")
             .datum({endAngle: this._endAngleDeg * (pi/180), startAngle: this._startAngleDeg * (pi/180)})
@@ -117,6 +117,8 @@
             .attr("stroke", this._ringColorCode)
             .attr("stroke-width", this._bracketThickness)
             .attr("fill", "none");
+
+        }            
 
         //Helper function 
         endPoints (lineLength, lineAngle){
